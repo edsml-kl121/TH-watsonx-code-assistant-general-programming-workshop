@@ -1,14 +1,16 @@
 ## Instructions
 
-1. Please explain the code for @filename 
+1. /explain @sample.py 
 - Then let explain each function
-2. generate python docstrings for the python code provided: @filename
-- Then generate for each code block
-3. Give some technical specification, recommend how to change code in @filename to satisfy a requirement
-4. Please fix this code: @bad.py
-5. Using /docs IBM give code …
-6. Refactor this larger chunk of code into smaller functions @filename
-7. Generate Test case for @filename
-- Generate for each func
-8. generate build and deployment (Dockerfile) script for the python code provided. @filename
 
+2. /document @sample.py
+- Then generate for each code block
+
+3. I want to add addition capabilities in @sample.py
+
+4. Please fix @bad.py
+
+5. /unit-test @sample.py
+- Generate for each func
+
+6. generate build and deployment (Dockerfile) script for the python code provided. @sample.py
